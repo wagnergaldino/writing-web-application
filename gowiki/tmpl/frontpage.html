@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>{{.Title}}</title>
+        <style>
+            h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+        </style>
+    </head>
+    <body>
+        <h1>{{.Title}}</h1>
+        <h3>{{.Menu}}</h3>
+        <div>{{printf "%s" .Body}}</div>
+    </body>
+</html>
